@@ -1,0 +1,56 @@
+// Fonts
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Fjalla+One'
+
+$fontheader: 'Fjalla One', sans-serif
+$fontbody: 'Open Sans', sans-serif
+
+// Colors
+$colorblack: rgb(0, 0, 0)
+$colorwhite: rgb(255, 255, 255)
+
+$colorbg: rgb(240, 240, 240)
+
+$color1: rgb(0, 104, 55)
+$color1t: rgba(0, 104, 55, .7)
+$color2: rgb(57, 181, 74)
+$color3: rgb(112, 181, 121)
+
+$testcolor1: rgb(250, 100, 200)
+$testcolor2: rgb(150, 200, 100)
+$testcolor3: rgb(50, 100, 200)
+
+=testborder
+  border: 2px solid $testcolor1
+
+=antialiasing
+  -webkit-font-smoothing: antialiased
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .04)
+
+=cta
+  color: $colorwhite
+  font-family: $fontheader
+  font-size: 3rem
+
+=button
+  background-color: $color2
+  box-shadow: 0 30px 35px -10px rgba(0, 0, 0, .50)
+  transition: background-color .25s ease-in-out
+
+  &:hover
+    background-color: $color3
+
+
+.layout-container
+  font-family: $fontbody
+  font-size: 16px
+
+
+a,
+a:visited,
+a:hover,
+a:active
+  color: inherit
+  text-decoration: none
+
+.is-active
+  border-bottom: 1px solid $color1

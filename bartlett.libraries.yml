@@ -1,0 +1,16 @@
+base:
+  version: 1.x
+  js:
+    foundation/js/app.js: {}
+    foundation/js/vendor/foundation.js: {}
+    #foundation/js/vendor/jquery.js: {}
+    foundation/js/what-input.js: {}
+  css:
+    theme:
+      css/normalize.css: {}
+      foundation/css/foundation.css: {}
+      css/style.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once

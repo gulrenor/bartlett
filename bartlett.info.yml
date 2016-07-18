@@ -1,0 +1,16 @@
+name: Bartlett
+type: theme
+description: A theme for my assignment from Bartlett Interactive
+core: 8.x
+base theme: classy
+
+libraries:
+  - bartlett/base
+
+regions:
+  header: 'Header'
+  #main_navigation: 'Main Navigation'
+  #hero: 'Hero'
+  content: 'Main Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'

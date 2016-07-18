@@ -1,0 +1,145 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Fjalla+One';
+/* line 43, ../sass/_globals.sass */
+.layout-container {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* line 48, ../sass/_globals.sass */
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 55, ../sass/_globals.sass */
+.is-active {
+  border-bottom: 1px solid #006837;
+}
+
+/* line 9, ../sass/style.sass */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+/* line 12, ../sass/style.sass */
+.layout-container {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.layout-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 15, ../sass/style.sass */
+header {
+  padding-top: 1rem;
+}
+
+/* line 18, ../sass/style.sass */
+.hero {
+  margin-right: -33%;
+  margin-left: -33%;
+  padding-right: 33%;
+  padding-left: 33%;
+  background: url("../images/hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 30rem;
+}
+
+/* line 24, ../sass/style.sass */
+.header-container {
+  height: 100%;
+}
+
+/* line 27, ../sass/style.sass */
+.main-navigation {
+  bottom: 25rem;
+  color: #006837;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* line 35, ../sass/style.sass */
+.logo {
+  max-height: 10rem;
+}
+
+/* line 38, ../sass/style.sass */
+.cta-container {
+  margin-right: -33%;
+  margin-left: -33%;
+  padding-right: 33%;
+  padding-left: 33%;
+  background-color: rgba(0, 104, 55, 0.7);
+  height: 10rem;
+  margin-top: 5rem;
+}
+/* line 44, ../sass/style.sass */
+.cta-container div {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 3rem;
+  width: 74.68354%;
+  float: left;
+  margin-right: 1.26582%;
+  margin: 0 11.39241%;
+  text-align: center;
+}
+
+/* line 50, ../sass/style.sass */
+.cta {
+  line-height: 10rem;
+}
+
+/* line 53, ../sass/style.sass */
+.cta-button {
+  background-color: #39b54a;
+  box-shadow: 0 30px 35px -10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.25s ease-in-out;
+  width: 17.72152%;
+  float: right;
+  margin-right: 0;
+  font-size: 1.1rem;
+  height: 6rem;
+  margin: 2rem 0;
+  width: 17.72152%;
+}
+/* line 39, ../sass/_globals.sass */
+.cta-button:hover {
+  background-color: #70b579;
+}
+
+/* line 61, ../sass/style.sass */
+main {
+  padding: 2rem 0;
+}
+
+/* line 64, ../sass/style.sass */
+.layout-sidebar-first {
+  background-color: #39b54a;
+}
+
+/* line 67, ../sass/style.sass */
+.footer-bg {
+  margin-right: -33%;
+  margin-left: -33%;
+  padding-right: 33%;
+  padding-left: 33%;
+  background-color: #006837;
+  height: 15rem;
+}
+
+/* line 72, ../sass/style.sass */
+footer {
+  color: white;
+}

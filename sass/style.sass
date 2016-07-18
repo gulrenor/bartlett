@@ -1,0 +1,73 @@
+// Screen
+// ======
+
+@import breakpoint
+@import globals
+@import grids
+
+
+body
+  +antialiasing
+
+.layout-container
+  +container(60%)
+
+header
+  padding-top: 1rem
+
+.hero
+  +bleed-x(33%)
+  background: url('../images/hero.jpg') no-repeat center center
+  background-size: cover
+  height: 30rem
+
+.header-container
+  height: 100%
+
+.main-navigation
+  bottom: 25rem
+  color: $color1
+  font-family: $fontheader
+  font-size: 1.5rem
+  position: relative
+  text-transform: uppercase
+
+.logo
+  max-height: 10rem
+
+.cta-container
+  +bleed-x(33%)
+  background-color: $color1t
+  height: 10rem
+  margin-top: 5rem
+
+  div
+    +cta
+    +span(12)
+    margin: 0 span(2)
+    text-align: center
+
+.cta
+  line-height: 10rem
+
+.cta-button
+  +button
+  +span(3 at 14)
+  font-size: 1.1rem
+  height: 6rem
+  margin: 2rem 0
+  width: span(3)
+
+main
+  padding: 2rem 0
+
+.layout-sidebar-first
+  background-color: $color2
+
+.footer-bg
+  +bleed-x(33%)
+  background-color: $color1
+  height: 15rem
+
+footer
+  color: $colorwhite
